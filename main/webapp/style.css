@@ -1,0 +1,309 @@
+body {
+font-family : Verdana;
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQUM1-359gbnJaFLJ_Aa9ebMrPIdstJQ3T4yX7wNdGVNU8pj8X5w") no-repeat center center fixed #000; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; 
+overflow-x : hidden;
+min-width :1200px;
+}
+
+.onOpen {
+font-size : 2em;
+text-align : center;
+margin-top : 10%;
+}
+
+.onOpen button {
+font-size : 1em;
+padding : 15px 30px;
+width : 30%;
+}
+
+.onOpen button {
+background-color: #c4c4ff;
+outline : none;
+border : none;
+border-radius : 5px;
+ 
+}
+
+.onOpen button:hover {
+border : 1px solid 
+rgba(255,255,255,1);
+color : rgba(255,255,255,1);
+}
+
+.onOpen button.active {
+border : 1px solid 
+rgba(255,255,255,1);
+color : rgba(255,255,255,1);
+}
+
+.toolbar {
+background-color : #c4c4ff;
+color : black;
+font-style: oblique;
+text-align : center;
+padding : 8px;
+position : sticky;
+top : 8px;
+z-index : 2;
+}
+
+.toolbarSession {
+float: left;
+ 
+}
+
+.sessionTab {
+float : left;
+}
+
+.sessionTab button {
+background-color : #c4c4ff;
+    color : black;
+    font-style: oblique;
+border : none;
+cursor : pointer;
+padding : 6px 8px 5px 8px;
+outline : none;
+}
+
+.sessionTab button:hover {
+text-decoration: underline;
+}
+
+.sessionTab button.active {
+text-decoration: underline;
+color : rgba(168,251,132,1);
+}
+
+.sessionTabContent {
+display: none;
+}
+
+.sidenav {
+padding: 10px; 
+background-color: white;
+height: 100%; 
+width: 11%; 
+position: fixed;  
+z-index: 1; 
+top: 5.54%; 
+left: 0.5%; 
+overflow-x: auto;
+}
+
+.sidenav th{
+text-align : left;
+}
+
+.sidenav td{
+font-size : 0.8em;
+}
+
+.main {
+margin-left:12.6%;
+}
+
+.topHalf {
+/* background-color : rgba(220,220,220,0.7); */
+background-image: linear-gradient(rgba(220,220,220,1), rgba(220,220,220,1), rgba(220,220,220,0.2));
+position : sticky;
+top : 5.45%;
+}
+
+.IParea form {
+width : 60%;
+display : inline-block;
+position : relative;
+left : 20%;
+}
+
+.IPText {
+width : 83%;
+height : 50px;
+padding : 0px 5px;
+border : 1px solid rgba(200,200,200,1);
+border-radius : 10px;
+}
+
+select {
+padding : 8px;
+border-radius : 3px;
+background-color : rgba(255,255,255,0.5);
+border : 1px solid rgba(180,180,180,1);
+outline : none;
+}
+
+.viewChartButton {
+background-color : rgba(46,218,71,0.7);
+color : rgba(255,255,255,1);
+padding : 8px;
+border : none;
+border-radius : 3px;
+margin-left : 20px;
+cursor :pointer;
+outline : none;
+}
+
+.viewChartButton:hover {
+border : 1px solid rgba(151,185,239,1);
+}
+
+.button {
+background-color : #00ce67;
+color : black;
+width: 15%;
+padding : 8px;
+border : none;
+height : 50px;
+border-radius : 5px;
+float : right;
+cursor : pointer;
+outline : none;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+
+}
+.error {
+  background: #000;
+  color: #ccc;
+  width : 70%;
+height : 100px;
+   padding : 0px 5px;
+  border : 1px solid rgba(200,200,200,1);
+   border-radius : 10px;
+   position:absolute;
+   bottom:-480px;
+   
+   
+}
+
+.tab {
+}
+
+.tab button {
+cursor : pointer;
+padding : 8px;
+background-color : rgba(220,220,220,0.7);
+border : none;
+outline : none;
+margin-left : 5px;
+}
+
+.tab button:hover {
+background-color: rgba(255,255,255,0.7);
+border : none;
+}
+
+.tab button.active {
+background-color: rgba(255,255,255,0.7);
+border : none;
+}
+
+.tabContent {
+display: none;
+text-align : center;
+font-size : 1em;
+}
+
+.content {
+margin : 10px;
+}
+
+.graphTab {
+}
+
+.graphTab button {
+cursor : pointer;
+background-color: rgba(255,255,255,0.5);
+padding : 8px;
+border : 1px solid rgba(46,218,71,0.3);
+outline : none;
+margin-left : 5px;
+}
+
+.graphTab button:hover {
+border : 1px solid rgba(46,218,71,1);
+}
+
+.graphTab button.active {
+border : 1px solid rgba(46,218,71,1);
+}
+
+.graphTabContent {
+display : none;
+margin-left : 20%;
+}
+
+.graphContent {
+margin : 10px;
+}
+
+#table {
+border-collapse : collapse;
+font-size : 0.85em;
+overflow-x : auto;
+height : 100%;
+}
+
+tr:first-child { 
+font-weight: bold; 
+background-color: rgba(200,200,200,0.3); 
+}
+
+#chartGenerated {
+font-size: 0.7em;
+}
+.log {
+ background: #000;
+  border: 3px groove #ccc;
+  color: #ccc;
+  display: block;
+  padding: 50px;
+  width: 500px;
+  position: absolute;
+  bottom: 50px;
+    right:400px  
+    
+}
+.Downloadbutton {
+ 
+color : black;
+padding : 3px;
+border : none;
+border-radius : 2px;
+float : right;
+text-align:right;
+cursor : pointer;
+width: 150px;
+  position: absolute;
+  bottom: 30px;
+    right:100px; 
+}
