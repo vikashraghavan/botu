@@ -8,13 +8,13 @@
   	<servlet-name>GetTableController</servlet-name>
   	<display-name>GetTableController</display-name>
   	<description></description>
-  	<servlet-class>com.navya.GetTableController</servlet-class>
+  	<servlet-class>com.botu.GetTableController</servlet-class>
   </servlet>
   <servlet>
   	<servlet-name>GetSessionController</servlet-name>
   	<display-name>GetSessionController</display-name>
   	<description></description>
-  	<servlet-class>com.navya.GetSessionController</servlet-class>
+  	<servlet-class>com.botu.GetSessionController</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>GetTableController</servlet-name>

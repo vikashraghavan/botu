@@ -1,4 +1,4 @@
-package com.navya;
+package com.botu;
 
 import java.sql.Statement;
 

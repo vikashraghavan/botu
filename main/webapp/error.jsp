@@ -1,4 +1,4 @@
-<%@page import="com.navya.Table"%>
+<%@page import="com.botu.Table"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
         
